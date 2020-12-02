@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import ProductsList from './components/Productslist'; 
 
 
-class App extends Component{
+class Appp extends Component{
   constructor(){
     super();
     console.log('hi from constructor');
@@ -38,4 +38,4 @@ class App extends Component{
   }
 }
 
-export default App;
+export default Appp;

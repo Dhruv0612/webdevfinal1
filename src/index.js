@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Appp from './Appp';
 import reportWebVitals from './reportWebVitals';
 import MyComponent from './Mycomponent';
 import GreetUser from './greetuser.js';
@@ -11,7 +11,7 @@ import StylingDemo1 from './stylingdemo1';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <Appp/>
   </React.StrictMode>,
   document.getElementById('root')
 );
