@@ -12,7 +12,7 @@ import Homepage from './homepage_component';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
