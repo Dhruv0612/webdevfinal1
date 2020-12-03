@@ -7,11 +7,12 @@ import MyComponent from './Mycomponent';
 import GreetUser from './greetuser.js';
 import StylingDemo from './stylingdemo';
 import StylingDemo1 from './stylingdemo1';
+import App from './App';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Appp/>
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
