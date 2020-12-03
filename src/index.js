@@ -8,11 +8,11 @@ import GreetUser from './greetuser.js';
 import StylingDemo from './stylingdemo';
 import StylingDemo1 from './stylingdemo1';
 import App from './App';
-
+import Homepage from './homepage_component';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <Homepage/>
   </React.StrictMode>,
   document.getElementById('root')
 );
