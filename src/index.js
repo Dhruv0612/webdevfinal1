@@ -9,10 +9,12 @@ import StylingDemo from './stylingdemo';
 import StylingDemo1 from './stylingdemo1';
 import App from './App';
 import Homepage from './homepage_component';
+import CategoryContainerComponent from './components1/category-container/CategoryContainerComponent';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App/>
+    <CategoryContainerComponent/>
   </React.StrictMode>,
   document.getElementById('root')
 );
